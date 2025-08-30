@@ -1,0 +1,25 @@
+/* global.css — Tailwind v4 minimal setup */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@400;600&display=swap');
+
+/* Tailwind entry */
+@import "tailwindcss";
+
+/* Declare the custom dark variant (no body; end with ;) */
+@custom-variant dark (:is(.dark, [data-theme="dark"]) &);
+
+/* Base styles */
+* {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+/* Theme tokens */
+@theme {
+  --color-primary: #d21605;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1 }
+  50% { opacity: 0 }
+}
