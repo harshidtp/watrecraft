@@ -12,6 +12,7 @@ import about_img from './about.jpg';
 import bottle_img1 from './300l_bottle.png';
 import bottle_img2 from './1l_bottle.png';
 import bottle_img3 from './20l_bottle.png';
+import footer_logo from './footer_logo.png'
 
 const assets = {
   logo,
@@ -27,6 +28,7 @@ const assets = {
   bottle_img1,
   bottle_img2,
   bottle_img3,
+  footer_logo
 };
 
 export default assets;

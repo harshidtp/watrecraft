@@ -29,9 +29,9 @@ function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Get in Touch</h3>
-          <p className="text-sm mb-2">123 Pure Street, Hydration City, HC 45678</p>
+          <p className="text-sm mb-2">CALICUT-MUKKAM-AREEKODE</p>
           <p className="text-sm mb-2">Email: info@watercraft.com</p>
-          <p className="text-sm mb-4">Phone: +1 (555) 123-4567</p>
+          <p className="text-sm mb-4">Phone: +91 90 3774 7010</p>
 
           {/* Social Icons */}
           <div className="flex space-x-4">

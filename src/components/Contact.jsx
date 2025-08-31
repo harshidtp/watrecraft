@@ -93,15 +93,15 @@ export default function ContactForm() {
         {/* Right Side - Logo & Address */}
         <div className="flex flex-col items-center justify-center text-center lg:text-left p-6">
           <img
-            src={assets.footer_icon}// 👉 replace with your actual logo path
+            src={assets.footer_logo}// 👉 replace with your actual logo path
             alt="Company Logo"
             className="w-40 h-40 object-contain mb-8"
           />
           <h3 className="text-2xl font-bold text-gray-800 mb-4 dark:text-white">Watercraft</h3>
-          <p className="text-gray-600 text-lg mb-1">123 Pure Street</p>
-          <p className="text-gray-600 text-lg mb-1">Hydration City, HC 45678</p>
+          <p className="text-gray-600 text-lg mb-1">Water supply company</p>
+          <p className="text-gray-600 text-lg mb-1">CALICUT-MUKKAM-AREEKODE</p>
           <p className="text-gray-600 text-lg mb-1">Email: info@watercraft.com</p>
-          <p className="text-gray-600 text-lg">Phone: +1 (555) 123-4567</p>
+          <p className="text-gray-600 text-lg">Phone: 📞 +91 90 3774 7010</p>
         </div>
       </div>
     </div>
